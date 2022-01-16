@@ -1,9 +1,9 @@
 # stock-analysis
-Using VBA
 ## Overview of Project
-Analysis and visualization of Theater (N = 1369) and plays (n = 1047) fundrising campaign data.
+Using VBA to analyze 2017 and 2018 stock data
 ### Purpose
-The client's play "Fever" came close to reaching its fundraising goal in a short amount of time. Now, she wants to know how similar campaigns fared in relation to their launch dates and their funding goals. The purpose of this analysis is to create a visualization for different theater and plays campaigns based on launch dates and funding goals. Conclusions will be made based on the visualization of this dataset and suggestions offered for further analysis of data.
+In this project and analysis, we used 2017 and 2018 Stock Market Data to create a VBA macro that can trigger pop-ups and inputs, read and change cell values, and format cells. Loops, nested for loops and conditionals were used to direct flow. Finally, we just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+Refactor code by taking fewer steps, using less memory, and improving the logic of the code to find the total daily volume and yearly return for each stock in our dataset for 2017 and 2018. Coding skills were applied such as syntax recollection, pattern recognition, problem decomposition, and debugging.
 ##Results: 
 Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 ## Summary: In a summary statement, address the following questions.
@@ -13,7 +13,7 @@ Using images and examples of your code, compare the stock performance between 20
 ![VBA Challenge 2018](Resources/VBA_Challenge_2018.png)
 ![Results 2017](Resources/2017_Results.png)
 ![Results 2018](Resources/2018_Results.png)
-```VBA
+```VBScript
 '1a) Create a ticker Index
     For i = 0 To 11
         tickerIndex = tickers(i)
