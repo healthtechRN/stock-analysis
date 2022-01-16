@@ -7,7 +7,7 @@ In this project, 2017 and 2018 Stock Market Data was analyzed to create a VBA ma
 Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 ### 2017 Stock Performance
 ![Results 2017](Resources/2017_Results.png)
-### 2017 Stock Performance
+### 2018 Stock Performance
 ![Results 2018](Resources/2018_Results.png)
 ### Execution time of the original script 2017
 ![VBA Original 2017](Resources/VBA_Original_2017.png)
