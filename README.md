@@ -22,7 +22,7 @@ In this project, 2017 and 2018 Stock Market Data was analyzed to create a VBA ma
 
 #### Refactored Code
 ```VBScript
-    '1a) Create a ticker Index
+    '1a) Create a for loop and ticker Index
     For i = 0 To 11
         tickerIndex = tickers(i)
 
@@ -31,7 +31,7 @@ In this project, 2017 and 2018 Stock Market Data was analyzed to create a VBA ma
     Dim tickerStartingPrices As Single
     Dim tickerEndingPrices As Single
     
-    ''2a) Create a for loop to initialize the tickerVolumes to zero.
+    ''2a)  initialize the tickerVolumes to zero.
         Worksheets(yearValue).Activate
         tickerVolumes = 0
 ```
