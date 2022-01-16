@@ -20,11 +20,6 @@ In our original code the total volume was set to 0 after creating the for loop.
           If Cells(j, 1).Value = ticker Then
             totalVolume = totalVolume + Cells(j, 8).Value
 ```
-### Execution time of the original script 2017
-![VBA Original 2017](Resources/VBA_Original_2017.png)
-### Execution time of the refactored script 2017
-![VBA Challenge 2017](Resources/VBA_Challenge_2017.png)
-
 ### Refactored Code
 In our refactored code, after creating the three output arrays the ticker volumes were set to zero resulting in greater efficiency of the code.
 ```VBScript
@@ -41,6 +36,10 @@ In our refactored code, after creating the three output arrays the ticker volume
         Worksheets(yearValue).Activate
         tickerVolumes = 0
 ```
+### Execution time of the original script 2017
+![VBA Original 2017](Resources/VBA_Original_2017.png)
+### Execution time of the refactored script 2017
+![VBA Challenge 2017](Resources/VBA_Challenge_2017.png)
 ### Execution time of the original script 2018
 ![VBA Original 2018](Resources/VBA_Original_2018.png)
 ### Execution time of the refactored script 2018
